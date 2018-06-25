@@ -97,13 +97,10 @@ loop = function() {
   }
 
   // background
-  // context.fillStyle = "#a6ccf0";
-  // context.fillRect(0, 0, 600, 400);// x, y, width, height
+  context.fillStyle = "#a6ccf0";
+  context.fillRect(0, 0, 600, 400);// x, y, width, height
   //
   // // player
-  // var img1=new Image();
-  // img1.src="https://dl.dropboxusercontent.com/u/139992952/multple/mm.jpg";
-  // context.createPattern(img1, 'repeat')
   context.fillStyle = "#ff0000";// hex for red
 
   context.beginPath();
